@@ -528,6 +528,7 @@ components.inactive[1][1] = {
 -- require('feline').use_theme(my_theme)
 require('feline').setup{
 	theme = my_theme,
+	-- theme = 'onedark',
 	components = components,
 	vi_mode_colors = vi_mode_colors,
 	force_inactive = force_inactive,

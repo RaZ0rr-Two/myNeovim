@@ -66,6 +66,7 @@ lua require('plugins/general/alpha')
 lua require('plugins/general/indent-blankline')
 lua require('plugins/general/nvim-bufferline')
 lua require('plugins/general/vim-matchup')
+lua require('plugins/general/marks')
 "source $HOME/.config/nvim/vimscript/plugins/fernTree.vim
 "source $HOME/.config/nvim/vimscript/plugins/airline.vim
 "source $HOME/.config/nvim/vimscript/keys/nerdTree.vim
@@ -76,6 +77,7 @@ lua require('plugins/general/vim-matchup')
 lua require('plugins/LSP/settings')
 lua require('plugins/LSP/lsp_signature')
 lua require('plugins/LSP/nvim-lightbulb')
+lua require('plugins/LSP/aerial')
 " lua require('plugins/LSP/lsp-utils')
 "source $HOME/.config/nvim/vimscript/plugins/LSP/lsp-config.vim
 "source $HOME/.config/nvim/vimscript/plugins/snippets.vim

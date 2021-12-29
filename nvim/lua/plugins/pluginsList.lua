@@ -98,13 +98,12 @@ require('packer').startup({
 
 		-- Comment and Uncomment lines -------------------
 		use 'b3nj5m1n/kommentary'
-		
-		-- Spell check helper plugin
 		use {
-			'kamykn/spelunker.vim',
-			requires = {'kamykn/popup-menu.nvim'},
+  		'rmagatti/auto-session',
+  		config = function()
+    		require('plugins/general/auto-session')
+  		end
 		}
-
 		-- Better Syntax Support
 		-- use 'sheerun/vim-polyglot'
 
@@ -141,6 +140,12 @@ require('packer').startup({
 		-- highlight, navigate, and operate on sets of matching text
 		use 'andymass/vim-matchup'
 
+		-- Spell check helper plugin
+		use {
+			'kamykn/spelunker.vim',
+			requires = {'kamykn/popup-menu.nvim'},
+		}
+
 		-- Add indentation guides even on blank lines -----
 		use 'lukas-reineke/indent-blankline.nvim'
 
@@ -163,13 +168,19 @@ require('packer').startup({
 		-- Startify
 		-- use 'mhinz/vim-startify'
 
+		-- Show marks and bookmarks
+		use 'chentau/marks.nvim'
+
+		-- Registers in floating window and other convenience
+		use "tversteeg/registers.nvim"
+
 		--------------------------------------------------
 		-- LSP 
 		--------------------------------------------------
 
 		-- Collection of configurations for built-in LSP client
 		use 'neovim/nvim-lspconfig'
-
+		use {'stevearc/aerial.nvim'}
 		-- use({
 		-- 	"jose-elias-alvarez/null-ls.nvim",
 			-- config = function()

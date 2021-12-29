@@ -78,7 +78,7 @@ vim.cmd[[highlight SpelunkerSpellBad cterm=underline ctermfg=247 gui=underline g
 vim.cmd[[highlight SpelunkerComplexOrCompoundWord cterm=underline ctermfg=NONE gui=underline guifg=NONE]]
 
 -- 'kamykn/popup-menu-nvim' settings
-vim.cmd([[
-hi Pmenu ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
-hi PmenuSel ctermfg=135 ctermbg=239 cterm=NONE guifg=#b26eff guibg=#4e4e4e gui=NONE
-]])
+-- vim.cmd([[
+-- hi Pmenu ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+-- hi PmenuSel ctermfg=135 ctermbg=239 cterm=NONE guifg=#b26eff guibg=#4e4e4e gui=NONE
+-- ]])

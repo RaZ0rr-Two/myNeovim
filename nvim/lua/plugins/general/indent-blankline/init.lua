@@ -50,5 +50,5 @@ ToggleMouse = function()
   end
 end
 
-vim.api.nvim_set_keymap('n', '<leader>il', '<cmd>IndentBlanklineToggle! | echo "Indent line toggled"<cr>', { noremap = true })
+vim.api.nvim_set_keymap('n', '<leader>il', [[<cmd>exec "IndentBlanklineToggle!" | echo "Indent line toggled"<cr>]], { noremap = true })
 vim.api.nvim_set_keymap('n', '<leader><F9>', '<cmd>lua ToggleMouse()<cr>', { noremap = true })
