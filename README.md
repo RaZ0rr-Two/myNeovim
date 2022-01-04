@@ -1,4 +1,6 @@
-# My Neovim configurations
+# ❗ Moved to [New Repo](https://github.com/RayZ0rr/myNeovim) ❗
+
+## My Neovim configurations
 
 ## To set up :
 
@@ -9,6 +11,6 @@
 `cp -r myNeovim/nvim ~/.config/`
 
 That's pretty much it. Start neovim with `nvim` inside terminal or however you want and enjoy.  
-( Note :exclamation: : opening neovim first time may throw errors. Close errors by pressing `<C-c>` (control + c) and type `:PackerInstall`. Might have to try this two times but it will fully setup after that)
+( Note ⚠️ : opening neovim first time may throw errors. Close errors by pressing `<C-c>` (control + c) and type `:PackerInstall`. Might have to try this two times but it will fully setup after that)
 
   
